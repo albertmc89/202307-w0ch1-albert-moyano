@@ -1,0 +1,63 @@
+:root {
+  --fuenteprincipal: "Bai Jamjuree", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 230, 230);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fuenteprincipal);
+  flex-direction: column;
+  margin: 50px;
+}
+
+.container {
+  width: 375px;
+  height: 240px;
+  background-color: rgb(48, 79, 79);
+  border: 3px solid black;
+  margin: 150px 20px;
+  border-radius: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: rgb(48, 79, 79);
+  font-size: 15px;
+  font-weight: 400;
+  width: 100px;
+  padding: 14px;
+  margin: 10px;
+  border-radius: 16px;
+  border-color: rgb(224, 48, 48);
+  cursor: pointer;
+  color: rgb(255, 25, 25);
+}
+
+.counter {
+  font-size: 100px;
+  font-weight: 900;
+  height: 70%;
+  color: rgb(224, 48, 48);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: rgb(184, 221, 221);
+  transition: 0.4s;
+}
